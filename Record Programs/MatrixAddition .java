@@ -20,7 +20,7 @@ class Matrix{
 					a[i][j]=s.nextInt();
 				}
 			}
-			System.out.println("\nEnter the elements of First Matrix:");
+			System.out.println("\nEnter the elements of Second Matrix:");
 			for(i=0;i<m;i++){
 				for(j=0;j<n;j++){
 					b[i][j]=s.nextInt();
