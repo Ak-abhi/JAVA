@@ -17,7 +17,7 @@ class Circle implements Prototype{
 	}
 	public void Perimeter() {
 		z=(2*pi*r);
-		System.out.println("Paremeter of circle is: "+(z));
+		System.out.println("Perimeter of circle is: "+(z));
 	}
 }
 
@@ -34,7 +34,7 @@ class Rectangle implements Prototype{
 	}
 	public void Perimeter() {
 		z=2*(l+b);
-		System.out.println("Paremeter of Rectangle:"+(z));
+		System.out.println("Perimeter of Rectangle:"+(z));
 	}
 }
 public class ShapesInterface {
@@ -44,8 +44,8 @@ public class ShapesInterface {
 		boolean b=true;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Menu:");
-		System.out.println("1.Area of Circle");
-		System.out.println("2.Area of Rectangle");
+		System.out.println("1.Area and Perimeter of Circle");
+		System.out.println("2.Area and Perimeter of Rectangle");
 		System.out.println("3.Exit");
 		
 		while(b) {
